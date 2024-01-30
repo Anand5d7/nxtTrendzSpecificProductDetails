@@ -1,5 +1,4 @@
 // Write your code here
-
 import {Component} from 'react'
 import {Link} from 'react-router-dom'
 import Cookies from 'js-cookie'
@@ -91,7 +90,7 @@ class ProductItemDetails extends Component {
         alt="failure view"
         className="failure-image"
       />
-      <h1 className="failure-heading">Page Not Found</h1>
+      <h1 className="failure-heading">Product Not Found</h1>
       <Link to="/products">
         <button className="button" type="button">
           Continue Shopping
@@ -130,7 +129,7 @@ class ProductItemDetails extends Component {
           <img src={imageUrl} alt="product" className="product-image" />
           <div className="product">
             <h1 className="product-title">{title}</h1>
-            <p className="product-price">Rs {price}</p>
+            <p className="product-price">Rs {price}/-</p>
             <div className="rating-review-container">
               <div className="rating-container">
                 <p className="rating">{rating}</p>
@@ -144,11 +143,11 @@ class ProductItemDetails extends Component {
             </div>
             <p className="product-description">{description}</p>
             <div className="label-value-container">
-              <p className="label">Available:</p>
+              <p className="label">Available: </p>
               <p className="value">{availability}</p>
             </div>
             <div className="label-value-container">
-              <p className="label">Brand:</p>
+              <p className="label">Brand: </p>
               <p className="value">{brand}</p>
             </div>
             <hr className="line" />
