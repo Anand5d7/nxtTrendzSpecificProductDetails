@@ -1,8 +1,7 @@
 /* Write your CSS here */
-
 .similar-product-item {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
   list-style-type: none;
 }
 
@@ -10,13 +9,16 @@
   height: 200px;
   width: 200px;
   border-radius: 8px;
+  margin-bottom: 10px;
 }
 
 .similar-title {
   color: #171f46;
   font-family: 'Roboto';
-  font-size: 23px;
+  font-size: 18px;
   font-weight: bold;
+  margin: 0px;
+  margin-bottom: 15px;
 }
 
 .similar-brand {
@@ -24,6 +26,9 @@
   font-family: 'Roboto';
   font-size: 20px;
   font-weight: 600;
+  margin: 0px;
+  padding: 0px;
+  margin-bottom: 20px;
 }
 
 .rating-price-container {
@@ -45,10 +50,11 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  line-height: 1;
-  width: 50px;
+  justify-content: center;
+  height: 30px;
+  width: 55px;
   background-color: #3b82f6;
-  border-radius: 2px;
+  border-radius: 5px;
 }
 
 .similar-rating {
@@ -56,9 +62,10 @@
   font-family: 'Roboto';
   font-size: 15px;
   font-weight: 600;
+  padding-right: 3px;
 }
 
 .similar-star-img {
-  height: 10px;
-  width: 10px;
+  height: 15px;
+  width: 15px;
 }
