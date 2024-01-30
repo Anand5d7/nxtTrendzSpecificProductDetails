@@ -13,9 +13,9 @@ const SimilarProductItem = props => {
         className="similar-image"
       />
       <p className="similar-title">{title}</p>
-      <p className="similar-brand">{brand}</p>
+      <p className="similar-brand">by {brand}</p>
       <div className="rating-price-container">
-        <p className="similar-price">Rs {price}</p>
+        <p className="similar-price">Rs {price}/-</p>
         <div className="rating-star-container">
           <p className="similar-rating">{rating}</p>
           <img
